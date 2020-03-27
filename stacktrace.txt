@@ -1,0 +1,170 @@
+W/ResourceType: Invalid package identifier when getting bag for resource number 0x00000000
+I/zygote64: Rejecting re-init on previously-failed class java.lang.Class<android.support.v4.view.ViewCompat$OnUnhandledKeyEventListenerWrapper>: java.lang.NoClassDefFoundError: Failed resolution of: Landroid/view/View$OnUnhandledKeyEventListener;
+I/zygote64:     at void android.support.v4.view.ViewCompat.setOnApplyWindowInsetsListener(android.view.View, android.support.v4.view.OnApplyWindowInsetsListener) (ViewCompat.java:2203)
+I/zygote64:     at android.view.ViewGroup android.support.v7.app.AppCompatDelegateImpl.createSubDecor() (AppCompatDelegateImpl.java:637)
+I/zygote64:     at void android.support.v7.app.AppCompatDelegateImpl.ensureSubDecor() (AppCompatDelegateImpl.java:518)
+I/zygote64:     at void android.support.v7.app.AppCompatDelegateImpl.setContentView(int) (AppCompatDelegateImpl.java:466)
+I/zygote64:     at void android.support.v7.app.AppCompatActivity.setContentView(int) (AppCompatActivity.java:140)
+I/zygote64:     at void com.getcapacitor.BridgeActivity.init(android.os.Bundle, java.util.List) (BridgeActivity.java:54)
+I/zygote64:     at void com.example.reactCapacitor.MainActivity.onCreate(android.os.Bundle) (MainActivity.java:16)
+I/zygote64:     at void android.app.Activity.performCreate(android.os.Bundle) (Activity.java:7183)
+I/zygote64:     at void android.app.Instrumentation.callActivityOnCreate(android.app.Activity, android.os.Bundle) (Instrumentation.java:1220)
+I/zygote64:     at android.app.Activity android.app.ActivityThread.performLaunchActivity(android.app.ActivityThread$ActivityClientRecord, android.content.Intent) (ActivityThread.java:2908)
+I/zygote64:     at void android.app.ActivityThread.handleLaunchActivity(android.app.ActivityThread$ActivityClientRecord, android.content.Intent, java.lang.String) (ActivityThread.java:3030)
+I/zygote64:     at void android.app.ActivityThread.-wrap11(android.app.ActivityThread, android.app.ActivityThread$ActivityClientRecord, android.content.Intent, java.lang.String) (ActivityThread.java:-1)
+I/zygote64:     at void android.app.ActivityThread$H.handleMessage(android.os.Message) (ActivityThread.java:1696)
+I/zygote64:     at void android.os.Handler.dispatchMessage(android.os.Message) (Handler.java:105)
+I/zygote64:     at void android.os.Looper.loop() (Looper.java:164)
+I/zygote64:     at void android.app.ActivityThread.main(java.lang.String[]) (ActivityThread.java:6938)
+I/zygote64:     at java.lang.Object java.lang.reflect.Method.invoke(java.lang.Object, java.lang.Object[]) (Method.java:-2)
+I/zygote64:     at void com.android.internal.os.Zygote$MethodAndArgsCaller.run() (Zygote.java:327)
+I/zygote64:     at void com.android.internal.os.ZygoteInit.main(java.lang.String[]) (ZygoteInit.java:1374)
+I/zygote64: Caused by: java.lang.ClassNotFoundException: Didn't find class "android.view.View$OnUnhandledKeyEventListener" on path: DexPathList[[zip file "/data/app/com.example.reactCapacitor-xv8tQbqjQuRPGJiSao-ujQ==/base.apk"],nativeLibraryDirectories=[/data/app/com.example.reactCapacitor-xv8tQbqjQuRPGJiSao-ujQ==/lib/arm64, /system/lib64, /system/vendor/lib64]]
+I/zygote64:     at java.lang.Class dalvik.system.BaseDexClassLoader.findClass(java.lang.String) (BaseDexClassLoader.java:93)
+I/zygote64:     at java.lang.Class java.lang.ClassLoader.loadClass(java.lang.String, boolean) (ClassLoader.java:379)
+I/zygote64:     at java.lang.Class java.lang.ClassLoader.loadClass(java.lang.String) (ClassLoader.java:312)
+I/zygote64:     at void android.support.v4.view.ViewCompat.setOnApplyWindowInsetsListener(android.view.View, android.support.v4.view.OnApplyWindowInsetsListener) (ViewCompat.java:2203)
+I/zygote64:     at android.view.ViewGroup android.support.v7.app.AppCompatDelegateImpl.createSubDecor() (AppCompatDelegateImpl.java:637)
+I/zygote64:     at void android.support.v7.app.AppCompatDelegateImpl.ensureSubDecor() (AppCompatDelegateImpl.java:518)
+I/zygote64:     at void android.support.v7.app.AppCompatDelegateImpl.setContentView(int) (AppCompatDelegateImpl.java:466)
+I/zygote64:     at void android.support.v7.app.AppCompatActivity.setContentView(int) (AppCompatActivity.java:140)
+I/zygote64:     at void com.getcapacitor.BridgeActivity.init(android.os.Bundle, java.util.List) (BridgeActivity.java:54)
+I/zygote64:     at void com.example.reactCapacitor.MainActivity.onCreate(android.os.Bundle) (MainActivity.java:16)
+I/zygote64:     at void android.app.Activity.performCreate(android.os.Bundle) (Activity.java:7183)
+I/zygote64:     at void android.app.Instrumentation.callActivityOnCreate(android.app.Activity, android.os.Bundle) (Instrumentation.java:1220)
+I/zygote64:     at android.app.Activity android.app.ActivityThread.performLaunchActivity(android.app.ActivityThread$ActivityClientRecord, android.content.Intent) (ActivityThread.java:2908)
+I/zygote64:     at void android.app.ActivityThread.handleLaunchActivity(android.app.ActivityThread$ActivityClientRecord, android.content.Intent, java.lang.String) (ActivityThread.java:3030)
+I/zygote64:     at void android.app.ActivityThread.-wrap11(android.app.ActivityThread, android.app.ActivityThread$ActivityClientRecord, android.content.Intent, java.lang.String) (ActivityThread.java:-1)
+I/zygote64:     at void android.app.ActivityThread$H.handleMessage(android.os.Message) (ActivityThread.java:1696)
+I/zygote64:     at void android.os.Handler.dispatchMessage(android.os.Message) (Handler.java:105)
+I/zygote64:     at void android.os.Looper.loop() (Looper.java:164)
+I/zygote64:     at void android.app.ActivityThread.main(java.lang.String[]) (ActivityThread.java:6938)
+I/zygote64:     at java.lang.Object java.lang.reflect.Method.invoke(java.lang.Object, java.lang.Object[]) (Method.java:-2)
+I/zygote64:     at void com.android.internal.os.Zygote$MethodAndArgsCaller.run() (Zygote.java:327)
+I/zygote64:     at void com.android.internal.os.ZygoteInit.main(java.lang.String[]) (ZygoteInit.java:1374)
+I/zygote64: Rejecting re-init on previously-failed class java.lang.Class<android.support.v4.view.ViewCompat$OnUnhandledKeyEventListenerWrapper>: java.lang.NoClassDefFoundError: Failed resolution of: Landroid/view/View$OnUnhandledKeyEventListener;
+I/zygote64:     at void android.support.v4.view.ViewCompat.setOnApplyWindowInsetsListener(android.view.View, android.support.v4.view.OnApplyWindowInsetsListener) (ViewCompat.java:2203)
+I/zygote64:     at android.view.ViewGroup android.support.v7.app.AppCompatDelegateImpl.createSubDecor() (AppCompatDelegateImpl.java:637)
+I/zygote64:     at void android.support.v7.app.AppCompatDelegateImpl.ensureSubDecor() (AppCompatDelegateImpl.java:518)
+I/zygote64:     at void android.support.v7.app.AppCompatDelegateImpl.setContentView(int) (AppCompatDelegateImpl.java:466)
+I/zygote64:     at void android.support.v7.app.AppCompatActivity.setContentView(int) (AppCompatActivity.java:140)
+I/zygote64:     at void com.getcapacitor.BridgeActivity.init(android.os.Bundle, java.util.List) (BridgeActivity.java:54)
+I/zygote64:     at void com.example.reactCapacitor.MainActivity.onCreate(android.os.Bundle) (MainActivity.java:16)
+I/zygote64:     at void android.app.Activity.performCreate(android.os.Bundle) (Activity.java:7183)
+I/zygote64:     at void android.app.Instrumentation.callActivityOnCreate(android.app.Activity, android.os.Bundle) (Instrumentation.java:1220)
+I/zygote64:     at android.app.Activity android.app.ActivityThread.performLaunchActivity(android.app.ActivityThread$ActivityClientRecord, android.content.Intent) (ActivityThread.java:2908)
+I/zygote64:     at void android.app.ActivityThread.handleLaunchActivity(android.app.ActivityThread$ActivityClientRecord, android.content.Intent, java.lang.String) (ActivityThread.java:3030)
+I/zygote64:     at void android.app.ActivityThread.-wrap11(android.app.ActivityThread, android.app.ActivityThread$ActivityClientRecord, android.content.Intent, java.lang.String) (ActivityThread.java:-1)
+I/zygote64:     at void android.app.ActivityThread$H.handleMessage(android.os.Message) (ActivityThread.java:1696)
+I/zygote64:     at void android.os.Handler.dispatchMessage(android.os.Message) (Handler.java:105)
+I/zygote64:     at void android.os.Looper.loop() (Looper.java:164)
+I/zygote64:     at void android.app.ActivityThread.main(java.lang.String[]) (ActivityThread.java:6938)
+I/zygote64:     at java.lang.Object java.lang.reflect.Method.invoke(java.lang.Object, java.lang.Object[]) (Method.java:-2)
+I/zygote64:     at void com.android.internal.os.Zygote$MethodAndArgsCaller.run() (Zygote.java:327)
+I/zygote64:     at void com.android.internal.os.ZygoteInit.main(java.lang.String[]) (ZygoteInit.java:1374)
+I/zygote64: Caused by: java.lang.ClassNotFoundException: Didn't find class "android.view.View$OnUnhandledKeyEventListener" on path: DexPathList[[zip file "/data/app/com.example.reactCapacitor-xv8tQbqjQuRPGJiSao-ujQ==/base.apk"],nativeLibraryDirectories=[/data/app/com.example.reactCapacitor-xv8tQbqjQuRPGJiSao-ujQ==/lib/arm64, /system/lib64, /system/vendor/lib64]]
+I/zygote64:     at java.lang.Class dalvik.system.BaseDexClassLoader.findClass(java.lang.String) (BaseDexClassLoader.java:93)
+I/zygote64:     at java.lang.Class java.lang.ClassLoader.loadClass(java.lang.String, boolean) (ClassLoader.java:379)
+I/zygote64:     at java.lang.Class java.lang.ClassLoader.loadClass(java.lang.String) (ClassLoader.java:312)
+I/zygote64:     at void android.support.v4.view.ViewCompat.setOnApplyWindowInsetsListener(android.view.View, android.support.v4.view.OnApplyWindowInsetsListener) (ViewCompat.java:2203)
+I/zygote64:     at android.view.ViewGroup android.support.v7.app.AppCompatDelegateImpl.createSubDecor() (AppCompatDelegateImpl.java:637)
+I/zygote64:     at void android.support.v7.app.AppCompatDelegateImpl.ensureSubDecor() (AppCompatDelegateImpl.java:518)
+I/zygote64:     at void android.support.v7.app.AppCompatDelegateImpl.setContentView(int) (AppCompatDelegateImpl.java:466)
+I/zygote64:     at void android.support.v7.app.AppCompatActivity.setContentView(int) (AppCompatActivity.java:140)
+I/zygote64:     at void com.getcapacitor.BridgeActivity.init(android.os.Bundle, java.util.List) (BridgeActivity.java:54)
+I/zygote64:     at void com.example.reactCapacitor.MainActivity.onCreate(android.os.Bundle) (MainActivity.java:16)
+I/zygote64:     at void android.app.Activity.performCreate(android.os.Bundle) (Activity.java:7183)
+I/zygote64:     at void android.app.Instrumentation.callActivityOnCreate(android.app.Activity, android.os.Bundle) (Instrumentation.java:1220)
+I/zygote64:     at android.app.Activity android.app.ActivityThread.performLaunchActivity(android.app.ActivityThread$ActivityClientRecord, android.content.Intent) (ActivityThread.java:2908)
+I/zygote64:     at void android.app.ActivityThread.handleLaunchActivity(android.app.ActivityThread$ActivityClientRecord, android.content.Intent, java.lang.String) (ActivityThread.java:3030)
+I/zygote64:     at void android.app.ActivityThread.-wrap11(android.app.ActivityThread, android.app.ActivityThread$ActivityClientRecord, android.content.Intent, java.lang.String) (ActivityThread.java:-1)
+I/zygote64:     at void android.app.ActivityThread$H.handleMessage(android.os.Message) (ActivityThread.java:1696)
+I/zygote64:     at void android.os.Handler.dispatchMessage(android.os.Message) (Handler.java:105)
+I/zygote64:     at void android.os.Looper.loop() (Looper.java:164)
+I/zygote64:     at void android.app.ActivityThread.main(java.lang.String[]) (ActivityThread.java:6938)
+I/zygote64:     at java.lang.Object java.lang.reflect.Method.invoke(java.lang.Object, java.lang.Object[]) (Method.java:-2)
+I/zygote64:     at void com.android.internal.os.Zygote$MethodAndArgsCaller.run() (Zygote.java:327)
+I/zygote64:     at void com.android.internal.os.ZygoteInit.main(java.lang.String[]) (ZygoteInit.java:1374)
+I/zygote64: Rejecting re-init on previously-failed class java.lang.Class<android.support.v4.view.ViewCompat$OnUnhandledKeyEventListenerWrapper>: java.lang.NoClassDefFoundError: Failed resolution of: Landroid/view/View$OnUnhandledKeyEventListener;
+I/zygote64:     at void android.support.v4.view.ViewCompat.setOnApplyWindowInsetsListener(android.view.View, android.support.v4.view.OnApplyWindowInsetsListener) (ViewCompat.java:2203)
+I/zygote64:     at android.view.ViewGroup android.support.v7.app.AppCompatDelegateImpl.createSubDecor() (AppCompatDelegateImpl.java:637)
+I/zygote64:     at void android.support.v7.app.AppCompatDelegateImpl.ensureSubDecor() (AppCompatDelegateImpl.java:518)
+I/zygote64:     at void android.support.v7.app.AppCompatDelegateImpl.setContentView(int) (AppCompatDelegateImpl.java:466)
+I/zygote64:     at void android.support.v7.app.AppCompatActivity.setContentView(int) (AppCompatActivity.java:140)
+I/zygote64:     at void com.getcapacitor.BridgeActivity.init(android.os.Bundle, java.util.List) (BridgeActivity.java:54)
+I/zygote64:     at void com.example.reactCapacitor.MainActivity.onCreate(android.os.Bundle) (MainActivity.java:16)
+I/zygote64:     at void android.app.Activity.performCreate(android.os.Bundle) (Activity.java:7183)
+I/zygote64:     at void android.app.Instrumentation.callActivityOnCreate(android.app.Activity, android.os.Bundle) (Instrumentation.java:1220)
+I/zygote64:     at android.app.Activity android.app.ActivityThread.performLaunchActivity(android.app.ActivityThread$ActivityClientRecord, android.content.Intent) (ActivityThread.java:2908)
+I/zygote64:     at void android.app.ActivityThread.handleLaunchActivity(android.app.ActivityThread$ActivityClientRecord, android.content.Intent, java.lang.String) (ActivityThread.java:3030)
+I/zygote64:     at void android.app.ActivityThread.-wrap11(android.app.ActivityThread, android.app.ActivityThread$ActivityClientRecord, android.content.Intent, java.lang.String) (ActivityThread.java:-1)
+I/zygote64:     at void android.app.ActivityThread$H.handleMessage(android.os.Message) (ActivityThread.java:1696)
+I/zygote64:     at void android.os.Handler.dispatchMessage(android.os.Message) (Handler.java:105)
+I/zygote64:     at void android.os.Looper.loop() (Looper.java:164)
+I/zygote64:     at void android.app.ActivityThread.main(java.lang.String[]) (ActivityThread.java:6938)
+I/zygote64:     at java.lang.Object java.lang.reflect.Method.invoke(java.lang.Object, java.lang.Object[]) (Method.java:-2)
+I/zygote64:     at void com.android.internal.os.Zygote$MethodAndArgsCaller.run() (Zygote.java:327)
+I/zygote64:     at void com.android.internal.os.ZygoteInit.main(java.lang.String[]) (ZygoteInit.java:1374)
+I/zygote64: Caused by: java.lang.ClassNotFoundException: Didn't find class "android.view.View$OnUnhandledKeyEventListener" on path: DexPathList[[zip file "/data/app/com.example.reactCapacitor-xv8tQbqjQuRPGJiSao-ujQ==/base.apk"],nativeLibraryDirectories=[/data/app/com.example.reactCapacitor-xv8tQbqjQuRPGJiSao-ujQ==/lib/arm64, /system/lib64, /system/vendor/lib64]]
+I/zygote64:     at java.lang.Class dalvik.system.BaseDexClassLoader.findClass(java.lang.String) (BaseDexClassLoader.java:93)
+I/zygote64:     at java.lang.Class java.lang.ClassLoader.loadClass(java.lang.String, boolean) (ClassLoader.java:379)
+I/zygote64:     at java.lang.Class java.lang.ClassLoader.loadClass(java.lang.String) (ClassLoader.java:312)
+I/zygote64:     at void android.support.v4.view.ViewCompat.setOnApplyWindowInsetsListener(android.view.View, android.support.v4.view.OnApplyWindowInsetsListener) (ViewCompat.java:2203)
+I/zygote64:     at android.view.ViewGroup android.support.v7.app.AppCompatDelegateImpl.createSubDecor() (AppCompatDelegateImpl.java:637)
+I/zygote64:     at void android.support.v7.app.AppCompatDelegateImpl.ensureSubDecor() (AppCompatDelegateImpl.java:518)
+I/zygote64:     at void android.support.v7.app.AppCompatDelegateImpl.setContentView(int) (AppCompatDelegateImpl.java:466)
+I/zygote64:     at void android.support.v7.app.AppCompatActivity.setContentView(int) (AppCompatActivity.java:140)
+I/zygote64:     at void com.getcapacitor.BridgeActivity.init(android.os.Bundle, java.util.List) (BridgeActivity.java:54)
+I/zygote64:     at void com.example.reactCapacitor.MainActivity.onCreate(android.os.Bundle) (MainActivity.java:16)
+I/zygote64:     at void android.app.Activity.performCreate(android.os.Bundle) (Activity.java:7183)
+I/zygote64:     at void android.app.Instrumentation.callActivityOnCreate(android.app.Activity, android.os.Bundle) (Instrumentation.java:1220)
+I/zygote64:     at android.app.Activity android.app.ActivityThread.performLaunchActivity(android.app.ActivityThread$ActivityClientRecord, android.content.Intent) (ActivityThread.java:2908)
+I/zygote64:     at void android.app.ActivityThread.handleLaunchActivity(android.app.ActivityThread$ActivityClientRecord, android.content.Intent, java.lang.String) (ActivityThread.java:3030)
+I/zygote64:     at void android.app.ActivityThread.-wrap11(android.app.ActivityThread, android.app.ActivityThread$ActivityClientRecord, android.content.Intent, java.lang.String) (ActivityThread.java:-1)
+I/zygote64:     at void android.app.ActivityThread$H.handleMessage(android.os.Message) (ActivityThread.java:1696)
+I/zygote64:     at void android.os.Handler.dispatchMessage(android.os.Message) (Handler.java:105)
+I/zygote64:     at void android.os.Looper.loop() (Looper.java:164)
+I/zygote64:     at void android.app.ActivityThread.main(java.lang.String[]) (ActivityThread.java:6938)
+I/zygote64:     at java.lang.Object java.lang.reflect.Method.invoke(java.lang.Object, java.lang.Object[]) (Method.java:-2)
+I/zygote64:     at void com.android.internal.os.Zygote$MethodAndArgsCaller.run() (Zygote.java:327)
+I/zygote64:     at void com.android.internal.os.ZygoteInit.main(java.lang.String[]) (ZygoteInit.java:1374)
+W/ResourceType: Found multiple library tables, ignoring...
+W/ResourceType: Found multiple library tables, ignoring...
+W/ResourceType: Found multiple library tables, ignoring...
+W/ResourceType: Found multiple library tables, ignoring...
+I/WebViewFactory: Loading com.android.chrome version 80.0.3987.149 (code 398714932)
+W/ResourceType: Invalid package identifier when getting bag for resource number 0x00000000
+W/ResourceType: Invalid package identifier when getting bag for resource number 0x00000000
+I/cr_LibraryLoader: Loaded native library version number "80.0.3987.149"
+W/ResourceType: Failure getting entry for 0x7f130543 (t=18 e=1347) (error -2147483647)
+E/chromium: [ERROR:filesystem_posix.cc(62)] mkdir /data/user/0/com.example.reactCapacitor/cache/WebView/Crashpad: No such file or directory (2)
+D/ConnectivityManager: requestNetwork; CallingUid : 10807, CallingPid : 19547
+D/Capacitor: Starting BridgeActivity
+D/Capacitor: Registering plugin: App
+D/Capacitor: Registering plugin: Accessibility
+D/Capacitor: Registering plugin: BackgroundTask
+D/Capacitor: Registering plugin: Browser
+D/Capacitor: Registering plugin: Camera
+D/Capacitor: Registering plugin: Clipboard
+D/Capacitor: Registering plugin: Device
+D/Capacitor: Registering plugin: LocalNotifications
+D/Capacitor: Registering plugin: Filesystem
+D/Capacitor: Registering plugin: Geolocation
+D/Capacitor: Registering plugin: Haptics
+D/Capacitor: Registering plugin: Keyboard
+D/Capacitor: Registering plugin: Modals
+D/Capacitor: Registering plugin: Network
+D/Capacitor: Registering plugin: Permissions
+I/zygote64: Do partial code cache collection, code=30KB, data=25KB
+I/zygote64: After code cache collection, code=30KB, data=25KB
+I/zygote64: Increasing code cache capacity to 128KB
+D/Capacitor: Registering plugin: Photos
+D/Capacitor: Registering plugin: PushNotifications
+D/Capacitor: Registering plugin: Share
+D/Capacitor: Registering plugin: SplashScreen
+D/Capacitor: Registering plugin: StatusBar
+D/Capacitor: Registering plugin: Storage
+D/Capacitor: Registering plugin: Toast
+D/Capacitor: Registering plugin: WebView
+E/Capacitor: Unable to read file at path public/plugins
+D/Capacitor: Loading app at http://localhost
