@@ -1,0 +1,8 @@
+{
+  "appId": "com.example.reactCapacitor",
+  "appName": "react-capacitor-example",
+  "bundledWebRuntime": false,
+  "npmClient": "npm",
+  "webDir": "build",
+  "cordova": {}
+}
